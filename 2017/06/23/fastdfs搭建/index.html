@@ -22,7 +22,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://www.orangezhang.com/2017/06/23/hello-world/">
+    <link rel="canonical" href="http://www.orangezhang.com/2017/06/23/fastdfs搭建/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -183,17 +183,18 @@
 <p>FastDFS依赖libevent库，需要安装：<br>yum -y install libevent</p>
 <p>###3.2.4    安装libfastcommon<br>libfastcommon是FastDFS官方提供的，libfastcommon包含了FastDFS运行所需要的一些基础库。<br>将libfastcommonV1.0.7.tar.gz拷贝至/usr/local/下<br>cd /usr/local<br>tar -zxvf libfastcommonV1.0.7.tar.gz<br>cd libfastcommon-1.0.7<br>./make.sh<br>./make.sh install</p>
 <p>注意：libfastcommon安装好后会自动将库文件拷贝至/usr/lib64下，由于FastDFS程序引用usr/lib目录所以需要将/usr/lib64下的库文件拷贝至/usr/lib下。<br>要拷贝的文件如下：</p>
+<p>#<br><a href="http://www.open-open.com/lib/view/open1435468300700.html" title="详情见此" target="_blank" rel="external">http://www.open-open.com/lib/view/open1435468300700.html</a></p>
 
                 <hr>
                 
 
                 <ul class="pager">
                     
-                    <li class="previous">
-                        <a href="/2017/06/23/集合概念详解/" data-toggle="tooltip" data-placement="top"
-                           title="MySQL性能优化的最佳20+条经验">&larr; Previous Post</a>
-                    </li>
                     
+                    <li class="next">
+                        <a href="/2017/06/23/solr/" data-toggle="tooltip" data-placement="top"
+                           title="FastDFS 环境搭建">Next Post &rarr;</a>
+                    </li>
                     
                 </ul>
 
